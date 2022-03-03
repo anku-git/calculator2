@@ -1,0 +1,103 @@
+body{
+    width: 100%;
+    height:100%;
+    background-image: url(img//bg3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width:1000px;
+    height:650px;
+    /* border: 2px solid black; */
+    margin: 34px auto;
+    background-image:url(img//bg.jpg);width:1000px; 
+     background-size: cover;
+    background-attachment:fixed;
+
+     
+
+}
+/* .container img{
+   width:1000px;
+} */
+.box{
+    width:420px;
+    height:600px;
+    background-color: rgb(214, 214, 233);
+    margin: 20px auto;
+    top:20px;
+    position: relative;
+  
+}
+#result{
+    height:120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0px 20px;
+    padding: 20px;
+    font-size: 15px;
+    color:#919191;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin:10px 20px;
+    font-size: 30px;
+}
+ #keyboard{
+     height: 400px;
+ }
+ .operator,.number,.empty{
+     width:50px;
+     height:50px;
+     margin: 20px;
+     float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ .number,.empty{
+      background-color: rgb(214, 214, 233); ;
+ }
+ .number,.operator{
+     cursor: pointer;
+ }
+ .number:active,.operator:active{
+     font-size: 13px;
+ }
+ .operator:focus,.number:focus,.empty:focus{
+     outline: 0px;
+ }
+ button:nth-child(4){
+     font-size: 25px;
+     background-color: rgb(87, 197, 224);
+ }
+ button:nth-child(8){
+    font-size: 25px;
+    background-color: rgb(224, 212, 36);
+}
+button:nth-child(12){
+    font-size: 25px;
+    background-color: rgb(230, 74, 170);
+}
+button:nth-child(16){
+    font-size: 25px;
+    background-color: rgb(64, 233, 64);
+}
+
+button:nth-child(20){
+    font-size: 25px;
+    background-color: rgb(191, 43, 236);
+}
+
+ 
+
+
+
